@@ -1,0 +1,267 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+<style>
+#backgroundImage{z-index: 1;}
+
+#backgroundImage:before {
+   content: "";
+   position: fixed;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-image: url("https://t4.ftcdn.net/jpg/01/49/99/29/500_F_149992927_WYyu5zQKzHUlrvSf1IHvGjzHYeaFviLI.jpg");
+   background-size: auto;
+   min-height: 100%;
+   min-width: 100%;
+    opacity: 0.2;
+    filter:alpha(opacity=100);
+ }
+
+body{
+  background-color: white;
+}
+.button{
+  text-decoration: none;
+  font-weight: 600;
+  color: #6666ff;
+  font-family: arial;
+}
+header{background-color: black;
+color: white;
+	width: 100%;
+	padding: 15px 0;
+	text-align: center;
+}
+.navbar {
+    overflow: hidden;
+    background-color: black;
+color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: grey;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 184px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color:#f8bbd0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.resources1 li img{
+			width: 160px;
+			height: 220px;
+			border: 1px solid LightGrey;
+			padding: 10px;
+			box-shadow: 10px 10px 5px grey; 
+			
+}
+.resources1 li{
+		padding:20px;
+		width: 250px;
+		display: inline-table;
+		vertical-align: baseline;
+}
+.resources1{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+</style>
+</head>
+
+
+<body>
+<header> <h1>TREND STOCK</h1></header>
+
+<div class="navbar">
+  <a class="active" href="home.html"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+  <a href="login.html"><i class="fa fa-fw fa-user"></i> Login</a>
+  <a href="about.html"><i class="fa fa-sticky-note"></i> About Us</a>
+  <div class="dropdown">
+    <button class="dropbtn"><i class="fa fa-fw fa-bell-o"></i>BEST-SELLERS
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="tees.html">Shirts</a>
+	  <a href="watches.html">Watches</a>
+	  <a href="laptops.html">Laptops</a>
+	  <a href="mobiles.html">Mobiles</a>
+    </div>
+  </div> 
+<input class="search-area" type="text" name="text" placeholder="search here">
+ <button class="search-btn" <i class="fa fa-search"></i>Search</button>
+<a href="#"><i class="fa fa-shopping-cart"></i> Cart</a>
+
+ 
+</div>
+<div id="backgroundImage">
+<ul class="resources1">
+  <li>
+    <img src="https://cdn1.ethoswatches.com/media/catalog/product/cache/06b0325fe0d1ea074c67035fe5935845/j/a/jacob-co-astronomia-solar-as910-40-bd-bd-a_1.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Jacob & Co.Astronomia<br></a>
+      <p class="price">Rs.8,01,00,000<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+  </li>
+  <li>
+    <img src="https://cdn1.ethoswatches.com/media/catalog/product/cache/06b0325fe0d1ea074c67035fe5935845/j/a/jacob-co-bugatti-chiron-tb-bu200-30-aa-aa-b_1.jpg"><br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Jacob & Co.
+        Bugatti Chiron Tourbillon<br></a>
+      <p class="price">Rs.4,01,00,000<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+  <li>
+    <img src="https://cdn1.ethoswatches.com/media/catalog/product/cache/06b0325fe0d1ea074c67035fe5935845/e/d/edox-fly-skydiver-80120-37rnnca-nir_1_1.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Edox
+        Neptunian<br></a>
+      <p class="price">Rs.1,45,000<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+  <li>
+    <img src="https://cdn1.ethoswatches.com/media/catalog/product/cache/06b0325fe0d1ea074c67035fe5935845/r/a/rado-hyperchrome-r32156153.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Rado
+        HyperChrome<br></a>
+      <p class="price">Rs.1,44,000<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+  <li>
+    <img src="https://cdn1.ethoswatches.com/media/catalog/product/cache/06b0325fe0d1ea074c67035fe5935845/r/a/raymond-weil-toccata-5485-sp5-20001.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Raymond Weil
+        Toccata<br></a>
+      <p class="price">Rs.1,00,000<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+  <li>
+    <img src="https://cdn1.ethoswatches.com/media/catalog/product/cache/06b0325fe0d1ea074c67035fe5935845/r/a/raymond-weil-toccata-5485-stp-50001.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Raymond Weil
+        Toccata<br></a>
+      <p class="price">Rs.1,00,000<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+  <li>
+    <img src="https://cdn1.ethoswatches.com/media/catalog/product/cache/06b0325fe0d1ea074c67035fe5935845/s/e/seiko-presage-ssa441j1.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Seiko
+        Presage<br></a>
+      <p class="price">Rs.50,000<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+  <li>
+    <img src="https://cdn1.ethoswatches.com/media/catalog/product/cache/06b0325fe0d1ea074c67035fe5935845/s/e/seiko-prospex-sne589p1.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Seiko
+        Prospex<br></a>
+      <p class="price">Rs.50,000<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+  <li>
+    <img src="https://cdn1.ethoswatches.com/media/catalog/product/cache/06b0325fe0d1ea074c67035fe5935845/m/a/maserati-successo-r8853121004.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">DMaserati
+        Lifestyle<br></a>
+      <p class="price">Rs.16,400<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+  <li>
+    <img src="https://cdn1.ethoswatches.com/media/catalog/product/cache/06b0325fe0d1ea074c67035fe5935845/m/a/maserati-classic-r8853151007.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Maserati
+        Classic<br></a>
+      <p class="price">Rs.16,000<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+
+  
+  
+
+</ul>
+</div>
+</body>
+</html>
+
+

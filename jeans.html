@@ -1,0 +1,240 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+<style>
+#backgroundImage{z-index: 1;}
+
+#backgroundImage:before {
+   content: "";
+   position: fixed;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-image: url("https://t4.ftcdn.net/jpg/01/49/99/29/500_F_149992927_WYyu5zQKzHUlrvSf1IHvGjzHYeaFviLI.jpg ");
+   background-size: auto;
+   min-height: 100%;
+   min-width: 100%;
+    opacity: 0.2;
+    filter:alpha(opacity=100);
+ }
+
+body{
+  background-color: white;
+}
+.button{
+  text-decoration: none;
+  font-weight: 600;
+  color: #6666ff;
+  font-family: arial;
+}
+header{background-color: black;
+color: white;
+	width: 100%;
+	padding: 15px 0;
+	text-align: center;
+}
+.navbar {
+    overflow: hidden;
+    background-color: black;
+color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: grey;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color:#f8bbd0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+
+
+<body>
+<header> <h1>TREND STOCK</h1></header>
+
+<div class="navbar">
+  <a class="active" href="home.html"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+  <a href="login.html"><i class="fa fa-fw fa-user"></i> Login</a>
+  <a href="about.html"><i class="fa fa-sticky-note"></i> About Us</a>
+  <div class="dropdown">
+    <button class="dropbtn"><i class="fa fa-fw fa-bell-o"></i>BEST-SELLERS
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="tees.html">Shirts</a>
+	  <a href="watches.html">Watches</a>
+	  <a href="laptops.html">Laptops</a>
+	  <a href="mobiles.html">Mobiles</a>
+    </div>
+  </div> 
+<input class="search-area" type="text" name="text" placeholder="search here">
+ <button class="search-btn" <i class="fa fa-search"></i>Search</button>
+<a href="#"><i class="fa fa-shopping-cart"></i> Cart</a>
+
+ 
+</div>
+<div id="backgroundImage">
+<ul class="resources">
+  <li>
+    <img src="https://images.meesho.com/images/products/369905116/eizqc_512.webp">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Men Denim Stylish Jeans<br></a>
+      <p class="price">Rs.1,449<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+  </li>
+  <li>
+    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTqLBLkNknXLkhN3pF5JeKTj248Eyr5YdqBqn2fYxmJgQUQYun4hsNwtNqSeSB023MTbPaTx0tUpJe2rOBVpQoDnu7jhq-pb8syOyFTbGwr">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Roadster Men Blue Skinny Fit Mid-Rise Clean Look Acid Wash Stretchable Jeans<br></a>
+      <p class="price">Rs.1,925<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+  <li>
+    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRq1r3GZOspryKe3iI3wWJeOu3o8yJb4T_tJziYm8m2b5_DDJ_9VfsJeJ9DH1Z3bDSzvQeM0uGbI1t0d8qN1ENH5os9RSTnyuJQRCXJ244Bh6XBHZ173NJt-w">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Snitch Men's Light Blue Tapered Fit Jeans Tapered Fit Full Length<br></a>
+      <p class="price">Rs.1,490<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+  <li>
+    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRW6iL76T7D0EFsBD2T3fo9OjD0q8M7VHE2_Tei0OWi1vaGq9vsEPZAG3ATzHT9ZPSyChhBY9P-PmOqGudMKfISCxyVhNtv-H1WBBlXBKWWbGIUbAA8mtkqRA">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Urbano Fashion Mens Loose Fit Washed Jeans Non-Stretchable <br></a>
+      <p class="price">Rs.1599<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+  <li>
+    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQG1UYY5BCwYvGGopkdCSoKmGx7AZOEacVQw8i4sAYr7ANbAmmEuykTnoEQNuEwFAfUEF7XGp8acGq8zHLycAdH5KGyq5k3-OFYrJ3lgwIH">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">StyleCast x Revolte Men Relaxed Fit Light Fade Jeans<br></a>
+      <p class="price">Rs.<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+  <li>
+    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ6tqrlE37vzignZ5rQHmV95J0qDEa088gP4ofM3dsdx-f1VDHB1LC-xkFQStWDFAF-D9H_qj7jA6_K_5tHauXTl50IVv_4l0UfceNPCok">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">HIGHLANDER Men Slim Fit Light Fade Stretchable Jeans <br></a>
+      <p class="price">Rs.349<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+  <li>
+    <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT-ijePfDInummUBYGyUtPbBvXg0vCXqHrMfyOX9x32NcQvEjz4wHMQsjINY9GRH3PdKfRGDnbL_0Pxzk9fMqO3N557f6byZi0b1Ekzye4">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">StyleCast x Revolte Men Relaxed Fit Light Fade Stretchable Mid-Rise Jeans<br></a>
+      <p class="price">Rs.999<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+  <li>
+    <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTh15aN7pv87Tns5Vg86ICVLJVX1AT2Igdv4VilLwO8smABA4MFwIdEETC9Xq2elFzFMjpiv4BlvdNAp4w-QvCFEhL7xP64zMUftQ9CIG4Sg7cCFtb-eFy5xQ">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button"> Blue Baggy Jeans<br></a>
+      <p class="price">Rs.759<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+  <li>
+    <img src="https://m.media-amazon.com/images/I/71yAGQWRNBL._AC_UF1000,1000_QL80_.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">DEOTSY Print Jeans Men Letter Patched Ripped Jogger Jeans<br></a>
+      <p class="price">Rs.1149<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+  <li>
+    <img src="https://images.mehar.com/product_thumbnail1/1698646427-1.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Grey Wide Leg Men`s Ultra Fashion Jeans<br></a>
+      <p class="price">Rs.549<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+
+  
+  
+
+</ul>
+</div>
+</body>
+</html>
+
+
